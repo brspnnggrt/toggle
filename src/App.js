@@ -4,7 +4,6 @@ import React from 'react';
 import { MessageOutlined, LikeOutlined, StarOutlined } from '@ant-design/icons';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import { Switch } from 'antd';
-import { red, volcano, orange } from '@ant-design/colors'; 
 import './App.css';
 
 class App extends React.Component {
@@ -94,7 +93,7 @@ class App extends React.Component {
               <List dataSource={[...this.state.data.Attributes[0].Values, ...this.state.data.Attributes[1].Values, ...this.state.data.Attributes[2].Values]} 
               grid={{ gutter: 0, column: 3 }} renderItem={item => (
                   <List.Item>
-                    <Switch checkedChildren={item.ValueDisplay} unCheckedChildren={item.ValueDisplay} style={{"background-color": red.primary}}/>
+                    <Switch checkedChildren={item.ValueDisplay} unCheckedChildren={item.ValueDisplay} className={this.state.data.Attributes.find(x => x.Values.includes(item)).Name.replace(/ /g, '')}/>
                   </List.Item>
                 )}
               />
