@@ -79,7 +79,7 @@ class App extends React.Component {
             { !this.state.loading && 
               <List dataSource={this.state.data.Attributes} grid={{ gutter: 0, column: 1 }}
                 renderItem={item => (
-                  <List dataSource={item.Values} grid={{ gutter: 0, column: 6 }} header={item.Label}
+                  <List dataSource={item.Values} grid={{ gutter: 0, column: 4 }} header={item.Label}
                   renderItem={inneritem => (
                     <List.Item>
                       <Switch checkedChildren={inneritem.ValueDisplay} unCheckedChildren={inneritem.ValueDisplay} />
