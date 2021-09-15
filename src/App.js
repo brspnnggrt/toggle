@@ -4,7 +4,7 @@ import React from 'react';
 import { MessageOutlined, LikeOutlined, StarOutlined } from '@ant-design/icons';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import { Switch } from 'antd';
-import './App.css';
+import './App.less';
 
 class App extends React.Component {
 
