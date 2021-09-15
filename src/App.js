@@ -4,6 +4,7 @@ import React from 'react';
 import { MessageOutlined, LikeOutlined, StarOutlined } from '@ant-design/icons';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import { Switch } from 'antd';
+import { red, volcano, orange } from '@ant-design/colors'; 
 import './App.css';
 
 class App extends React.Component {
@@ -67,15 +68,6 @@ class App extends React.Component {
             { this.state.loading && 
               <span>loading data...</span>
             }
-            {/* { !this.state.loading && 
-              <List dataSource={[...this.state.data.Attributes[0].Values, ...this.state.data.Attributes[1].Values, ...this.state.data.Attributes[2].Values]} 
-              grid={{ gutter: 0, column: 3 }} renderItem={item => (
-                  <List.Item>
-                    <Switch checkedChildren={item.ValueDisplay} unCheckedChildren={item.ValueDisplay} />
-                  </List.Item>
-                )}
-              />
-            } */}
             { !this.state.loading && 
               <List dataSource={this.state.data.Attributes} grid={{ gutter: 0, column: 1 }}
                 renderItem={item => (
@@ -86,6 +78,24 @@ class App extends React.Component {
                     </List.Item>
                   )}
                 />
+                )}
+              />
+            }
+            {/* { !this.state.loading && 
+              <List dataSource={[...this.state.data.Attributes[0].Values, ...this.state.data.Attributes[1].Values, ...this.state.data.Attributes[2].Values]} 
+              grid={{ gutter: 0, column: 3 }} renderItem={item => (
+                  <List.Item>
+                    <Switch checkedChildren={item.ValueDisplay} unCheckedChildren={item.ValueDisplay} />
+                  </List.Item>
+                )}
+              />
+            } */}
+            { !this.state.loading && 
+              <List dataSource={[...this.state.data.Attributes[0].Values, ...this.state.data.Attributes[1].Values, ...this.state.data.Attributes[2].Values]} 
+              grid={{ gutter: 0, column: 3 }} renderItem={item => (
+                  <List.Item>
+                    <Switch checkedChildren={item.ValueDisplay} unCheckedChildren={item.ValueDisplay} style={{"background-color": red.primary}}/>
+                  </List.Item>
                 )}
               />
             }

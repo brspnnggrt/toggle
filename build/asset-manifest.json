@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/toggle/build/static/css/main.af1ae2d2.chunk.css",
-    "main.js": "/toggle/build/static/js/main.82d89852.chunk.js",
-    "main.js.map": "/toggle/build/static/js/main.82d89852.chunk.js.map",
-    "runtime-main.js": "/toggle/build/static/js/runtime-main.0bb34ce1.js",
-    "runtime-main.js.map": "/toggle/build/static/js/runtime-main.0bb34ce1.js.map",
+    "main.js": "/toggle/build/static/js/main.a000a1a4.chunk.js",
+    "main.js.map": "/toggle/build/static/js/main.a000a1a4.chunk.js.map",
+    "runtime-main.js": "/toggle/build/static/js/runtime-main.6da6c0ca.js",
+    "runtime-main.js.map": "/toggle/build/static/js/runtime-main.6da6c0ca.js.map",
     "static/css/2.a95be28f.chunk.css": "/toggle/build/static/css/2.a95be28f.chunk.css",
-    "static/js/2.7da9f172.chunk.js": "/toggle/build/static/js/2.7da9f172.chunk.js",
-    "static/js/2.7da9f172.chunk.js.map": "/toggle/build/static/js/2.7da9f172.chunk.js.map",
-    "static/js/3.63458ecd.chunk.js": "/toggle/build/static/js/3.63458ecd.chunk.js",
-    "static/js/3.63458ecd.chunk.js.map": "/toggle/build/static/js/3.63458ecd.chunk.js.map",
+    "static/js/2.8294a235.chunk.js": "/toggle/build/static/js/2.8294a235.chunk.js",
+    "static/js/2.8294a235.chunk.js.map": "/toggle/build/static/js/2.8294a235.chunk.js.map",
+    "static/js/3.6b51b1fc.chunk.js": "/toggle/build/static/js/3.6b51b1fc.chunk.js",
+    "static/js/3.6b51b1fc.chunk.js.map": "/toggle/build/static/js/3.6b51b1fc.chunk.js.map",
     "d898b5a80662ce0fa877f284527e6f4c.js": "/toggle/build/d898b5a80662ce0fa877f284527e6f4c.js",
     "d898b5a80662ce0fa877f284527e6f4c.js.LICENSE.txt": "/toggle/build/d898b5a80662ce0fa877f284527e6f4c.js.LICENSE.txt",
     "index.html": "/toggle/build/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/toggle/build/static/css/2.a95be28f.chunk.css.map",
     "static/css/main.af1ae2d2.chunk.css.map": "/toggle/build/static/css/main.af1ae2d2.chunk.css.map",
-    "static/js/2.7da9f172.chunk.js.LICENSE.txt": "/toggle/build/static/js/2.7da9f172.chunk.js.LICENSE.txt",
+    "static/js/2.8294a235.chunk.js.LICENSE.txt": "/toggle/build/static/js/2.8294a235.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/toggle/build/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bb34ce1.js",
+    "static/js/runtime-main.6da6c0ca.js",
     "static/css/2.a95be28f.chunk.css",
-    "static/js/2.7da9f172.chunk.js",
+    "static/js/2.8294a235.chunk.js",
     "static/css/main.af1ae2d2.chunk.css",
-    "static/js/main.82d89852.chunk.js"
+    "static/js/main.a000a1a4.chunk.js"
   ]
 }
