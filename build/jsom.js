@@ -631,6 +631,12 @@
         }
     };
     window.addEventListener("message", async (message) => {
+
+        if (message.data.runScript) {
+            eval(message.data.script);
+            return
+        }
+
         let request = message.data;
         request.response = await Promise.all(request.query.map(async (q) => {
             const queueApi = q.api.split('/').filter(x => x !== '');
@@ -645,6 +651,7 @@
         }));
         request.status = 'response';
         let iframe = document.getElementById(request.iframe);
-        iframe.contentWindow.postMessage(request, "https://brspnnggrt.github.io/");
+        iframe.contentWindow.postMessage(request, "https://localhost:3000/");
     });
+
 })();

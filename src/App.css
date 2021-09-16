@@ -1,9 +1,7 @@
-@import '~antd/dist/antd.less';
-@import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.css';
+/* @import '~antd/lib/style/themes/default.less'; */
 
 .App {
-  /* text-align: center; */
-  width: 80%;
   margin: 0 auto;
 }
 
@@ -33,6 +31,10 @@
   color: white;
 }
 
+.App-content {
+  padding: 0 16px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -45,7 +47,7 @@
     transform: rotate(360deg);
   }
 }
-
+/* 
 .Family {
   background-color: @red-2;
 }
@@ -65,4 +67,4 @@
 }
 .ArmLenght.ant-switch-checked {
   background-color: @orange-10;
-}
+} */
